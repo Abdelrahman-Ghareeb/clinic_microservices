@@ -12,12 +12,12 @@ public class PaymentController {
     @Autowired
     private PaymentService paymentService;
 
-    @GetMapping("/payment/{transactionId}")
+    @GetMapping("/{transactionId}")
     public PaymentDto getPaymentById(@PathVariable String transactionId) {
         return paymentService.getPaymentById(transactionId);
     }
 
-    @PostMapping("/payment")
+    @PostMapping()
     public AddPaymentDTO createPayment(@RequestBody AddPaymentDTO addPayment) {
         return paymentService.createPayment(addPayment);
     }

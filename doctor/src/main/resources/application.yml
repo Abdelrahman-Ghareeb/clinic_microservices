@@ -27,4 +27,6 @@ spring:
       hibernate.format_sql: update
 server:
   port: 9999
+  servlet:
+    context-path: /doctor
 

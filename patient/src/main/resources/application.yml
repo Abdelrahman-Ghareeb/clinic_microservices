@@ -26,4 +26,6 @@ spring:
       hibernate.format_sql: update
 server:
   port: 8881
+  servlet:
+    context-path: /patient
 
