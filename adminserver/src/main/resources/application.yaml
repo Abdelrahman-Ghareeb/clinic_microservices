@@ -1,0 +1,9 @@
+server:
+  port: 4444
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    show-details: always

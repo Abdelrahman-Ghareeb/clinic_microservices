@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Eureka/pom.xml" />
         <option value="$PROJECT_DIR$/patient-instance-2/pom.xml" />
         <option value="$PROJECT_DIR$/api-getway/pom.xml" />
+        <option value="$PROJECT_DIR$/adminserver/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,4 +1,8 @@
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:4444
   eureka:
     client:
       service-url:
@@ -28,4 +32,12 @@ server:
   port: 8881
   servlet:
     context-path: /patient
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    show-details: always
 
